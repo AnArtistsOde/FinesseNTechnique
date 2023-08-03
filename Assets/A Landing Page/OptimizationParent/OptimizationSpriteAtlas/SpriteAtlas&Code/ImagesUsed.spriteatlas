@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ImagesUsed
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: c2f30082f458a5b4c987c012665d79d6, type: 3}
+    - {fileID: 2800000, guid: ca4d240be5ea0a54184c37cd9a452481, type: 3}
+    - {fileID: 2800000, guid: 2627668ad878466459156aef8b2b18b8, type: 3}
+    - {fileID: 2800000, guid: e3c0e4740ac92bb4bac50770ae742365, type: 3}
+    - {fileID: 2800000, guid: d3f0279ee84f4cd41968f2fd86156128, type: 3}
+    - {fileID: 2800000, guid: f3601bb367713b444aa76f828b2e57bb, type: 3}
+    - {fileID: 2800000, guid: 74818cd15a48c084b86e23cf3b8ec853, type: 3}
+    - {fileID: 2800000, guid: 1301418d5d9196e4994e9ffc7e039ccb, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 74818cd15a48c084b86e23cf3b8ec853, type: 3}
+  - {fileID: 21300000, guid: c2f30082f458a5b4c987c012665d79d6, type: 3}
+  - {fileID: 21300000, guid: f3601bb367713b444aa76f828b2e57bb, type: 3}
+  - {fileID: 21300000, guid: e3c0e4740ac92bb4bac50770ae742365, type: 3}
+  - {fileID: 21300000, guid: 2627668ad878466459156aef8b2b18b8, type: 3}
+  - {fileID: 21300000, guid: ca4d240be5ea0a54184c37cd9a452481, type: 3}
+  - {fileID: 21300000, guid: 1301418d5d9196e4994e9ffc7e039ccb, type: 3}
+  - {fileID: 21300000, guid: d3f0279ee84f4cd41968f2fd86156128, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - cherry
+  - apple
+  - carrot
+  - cake
+  - banana
+  - acorn
+  - egg
+  - candy
+  m_RenderDataMap: {}
+  m_Tag: ImagesUsed
+  m_IsVariant: 0
