@@ -14,16 +14,17 @@ public class GraphEdge : MonoBehaviour
 
     private void Start()
     {
-        costText = Instantiate(costTextObject); 
+        //CalculateCosts(); 
+        costText = Instantiate(costTextObject);
         edgeLine = GetComponent<LineRenderer>();
-        edgeLine.positionCount = 2; 
+        edgeLine.positionCount = 2;
     }
     private void Update()
     {
+        //CalculateCosts();
         cost = Vector3.Distance(fromNode.transform.position, toNode.transform.position);
-        DrawEdgeLine(); 
-        
-        costText.GetComponent<TMP_Text>().SetText(" " + cost); 
+        DrawEdgeLine();
+        costText.GetComponent<TMP_Text>().SetText(" " + cost);
     }
 
 
@@ -33,5 +34,22 @@ public class GraphEdge : MonoBehaviour
         edgeLine.SetPosition(1,  toNode.transform.position);
         // 2 is get middle  1.2f is linesize 
         costText.transform.position = (fromNode.transform.position + toNode.transform.position) / 2 + Vector3.up * 1.2f; 
+    }
+
+    private void CalculateCosts()
+    {
+        if(Input.GetKeyDown(KeyCode.UpArrow))
+        {
+            costText = Instantiate(costTextObject);
+            edgeLine = GetComponent<LineRenderer>();
+            edgeLine.positionCount = 2;
+        }
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            cost = Vector3.Distance(fromNode.transform.position, toNode.transform.position);
+            DrawEdgeLine();
+            costText.GetComponent<TMP_Text>().SetText(" " + cost);
+        }
     }
 }
